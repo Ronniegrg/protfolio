@@ -44,7 +44,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    height: 170px;
+    height: 200px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -60,7 +60,7 @@
     align-items: flex-start;
     justify-content: space-around;
     width: 65%;
-   
+
 }
 
 .achievecard-details2 {
@@ -76,7 +76,7 @@
 }
 
 .achievecard-details2 h5 {
-   width: 50%;
+    width: 50%;
 }
 
 .achievecard-field {
@@ -105,13 +105,19 @@
 }
 
 .achievecard-imgcontainer {
-    width: 23%;
+    width: 30%;
 }
 
 .achievecard-imgcontainer > img {
-    width: 150px;
-    height: 130px;
+    width: 230px;
+    height: 150px;
     border-radius: 10px;
+}
+
+.achievecard-imgcontainer > img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
@@ -127,25 +133,27 @@
         flex: 0.3;
         width: 90%;
     }
+
     .achievement-body h1 {
         font-family: var(--primaryFont);
         font-size: 3.1rem;
     }
-    
+
     .achievement-cards {
         padding: 1rem;
         margin-left: 1%;
         width: 100%;
         flex: 0.7;
     }
+
     .achievecard-imgcontainer {
-       margin-left: 1rem;
+        margin-left: 1rem;
     }
 
 }
 
 @media screen and (max-width: 992px) {
-    .achievement{
+    .achievement {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -201,20 +209,21 @@
     .achievecard-imgcontainer {
         width: 30%;
         display: flex;
-       justify-content: center;
+        justify-content: center;
     }
 
     .achievecard-imgcontainer > img {
         width: 80px;
         height: 70px;
     }
-    
+
 }
 
 @media screen and (max-width: 600px) {
-    .achievement{
+    .achievement {
         padding: 1rem;
     }
+
     .achievement-cards {
         width: 100%;
     }
@@ -229,6 +238,7 @@
     .achievecard-details1 p {
         font-size: 0.95rem;
     }
+
     .achievecard-imgcontainer > img {
         width: 70px;
         height: 60px;

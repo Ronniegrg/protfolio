@@ -3,7 +3,8 @@
     'Javascript',
     'CSS',
     'React',
-    'Django',
+    'C',
+     'C#',
     'MongoDB',
     'MySQL',
     'Python'
